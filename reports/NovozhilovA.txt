@@ -1,0 +1,78 @@
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ id
+uid=1000(mrlolthe1st) gid=1000(mrlolthe1st) группы=1000(mrlolthe1st),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ pwd
+/home/mrlolthe1st
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ ls
+ 1.conf      a.out       ee.php                  init_funcs.php               mini_test.php                     php-cpp   serializers          tg.db       Изображения
+ ab.zip      csaver      fortsMain_20200410.db   init.php                     molot                             php-ext   shm_indp.rar         work        Музыка
+ a.cpp       db_tables   hpa_compressor_v4       kraken_20200424.gz           mrlolthe1st.conf                  qq        ShmTableField.php    Видео       Общедоступные
+ a.key       Downloads   ii                      kraken_futures_20200511.gz  ''$'\001''p'$'\f''@'$'\320''9@8'   qq.out    ShmTableLocker.php   Документы  'Рабочий стол'
+ a.key.pub   ee.out      includes                lpm                          php7.3-z                          res.sh    ShmTable.php         Загрузки    Шаблоны
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ ls -l
+итого 1524072
+-rw-r--r--  1 mrlolthe1st mrlolthe1st         0 мар 23 15:17  1.conf
+-rw-r--r--  1 mrlolthe1st mrlolthe1st     11915 июл  1 03:31  ab.zip
+-rw-r--r--  1 mrlolthe1st mrlolthe1st       932 июл 24 04:19  a.cpp
+-rw-------  1 mrlolthe1st mrlolthe1st       432 мар 24 12:45  a.key
+-rw-r--r--  1 mrlolthe1st mrlolthe1st       116 мар 24 12:45  a.key.pub
+-rwxr-xr-x  1 mrlolthe1st mrlolthe1st     17056 июл 24 04:20  a.out
+drwxr-xr-x  3 mrlolthe1st mrlolthe1st      4096 апр 21 18:26  csaver
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 июл 16 04:39  db_tables
+drwxrwxr-x  2 mrlolthe1st mrlolthe1st      4096 мая 18 14:58  Downloads
+-rw-r--r--  1 mrlolthe1st mrlolthe1st  11131240 апр 13 18:28  ee.out
+-rw-r--r--  1 mrlolthe1st mrlolthe1st       383 июн 26 14:04  ee.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st 346353664 апр 13 17:24  fortsMain_20200410.db
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 апр 13 18:34  hpa_compressor_v4
+-rw-r--r--  1 mrlolthe1st mrlolthe1st     70720 июл 24 04:19  ii
+drwxr-xr-x  3 mrlolthe1st mrlolthe1st      4096 июл 16 06:17  includes
+-rw-r--r--  1 mrlolthe1st mrlolthe1st      3336 июн 30 23:48  init_funcs.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st       154 июн 30 23:38  init.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st 389106384 апр 25 08:05  kraken_20200424.gz
+-rw-r--r--  1 mrlolthe1st mrlolthe1st 794894780 мая 18 13:17  kraken_futures_20200511.gz
+-rwxr-xr-x  1 mrlolthe1st mrlolthe1st     16720 июл 24 04:15  lpm
+-rw-r--r--  1 mrlolthe1st mrlolthe1st       336 июл 15 23:27  mini_test.php
+drwxr-xr-x  4 mrlolthe1st mrlolthe1st      4096 апр  1 01:19  molot
+-rw-rw-r--  1 mrlolthe1st mrlolthe1st      5527 мар 23 15:43  mrlolthe1st.conf
+-rw-r--r--  1 mrlolthe1st mrlolthe1st         0 авг  9 13:48 ''$'\001''p'$'\f''@'$'\320''9@8'
+drwxr-xr-x  3 mrlolthe1st mrlolthe1st      4096 июл  6 02:51  php7.3-z
+drwxr-xr-x  9 mrlolthe1st mrlolthe1st      4096 авг 26 03:21  php-cpp
+drwxr-xr-x  9 mrlolthe1st mrlolthe1st      4096 сен  8 09:30  php-ext
+drwxr-xr-x  3 mrlolthe1st mrlolthe1st      4096 сен 10 14:27  qq
+-rw-r--r--  1 root        root         11131240 апр 13 18:35  qq.out
+-rwxr-xr-x  1 mrlolthe1st mrlolthe1st       238 апр 30 08:09  res.sh
+drwxr-xr-x 10 mrlolthe1st mrlolthe1st      4096 мар 27 01:00  serializers
+-rwxrwxr-x  1 mrlolthe1st mrlolthe1st     10883 июн 30 23:57  shm_indp.rar
+-rw-r--r--  1 mrlolthe1st mrlolthe1st      3865 ноя 27  2019  ShmTableField.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st      3253 июн 19 01:04  ShmTableLocker.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st     36024 июн 29 22:50  ShmTable.php
+-rw-r--r--  1 mrlolthe1st mrlolthe1st   7704576 апр 13 17:31  tg.db
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 сен 10 14:32  work
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 мар 23 15:11  Видео
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 мар 23 15:11  Документы
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 авг 15 15:43  Загрузки
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 авг 22 18:38  Изображения
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 мар 23 15:11  Музыка
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 мар 23 15:11  Общедоступные
+drwxr-xr-x  3 mrlolthe1st mrlolthe1st      4096 июн 30 23:58 'Рабочий стол'
+drwxr-xr-x  2 mrlolthe1st mrlolthe1st      4096 мар 23 15:11  Шаблоны
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ date
+Чт сен 10 14:42:18 MSK 2020
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ mkdir -p work
+mrlolthe1st@mrlolthe1st-VirtualBox:~$ cd work
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ touch digits.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ echo 0123456789 > digits.txt 
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ (cat digits.txt && cat digits.txt) > digits2.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ (cat digits2.txt && cat digits2.txt && cat digits2.txt && cat digits2.txt) > digits8.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ (cat digits8.txt && cat digits8.txt && cat digits8.txt && cat digits8.txt) > digits32.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ (cat digits32.txt && cat digits32.txt) > digits64.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ cat digits.txt && cat digits6
+digits64.txt  digits65.txt  
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ (cat digits.txt && cat digits64.txt) > digits65.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ cat digits65.txt | wc -l
+65
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ head -5 /etc/passwd > a.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ tail -5 /etc/passwd > b.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ ls -l /etc > c.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ ls -l /etc | wc -l
+225
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ 

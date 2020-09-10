@@ -1,0 +1,74 @@
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ mkdir DirA
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ mkdir DirB
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > DirA/a.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > DirA/aa.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > DirB/b.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13 > DirB/bb.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ rm -rf /Dir*
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ ls
+abc.txt  a.txt  b.txt  c.txt  digits1.txt  digits2.txt  digits32.txt  digits64.txt  digits65.txt  digits8.txt  digits.txt  DirA  DirB
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ 
+
+==============================================================
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ cat /etc/passwd | grep "$USER"
+mrlolthe1st:x:1000:1000:mrlolthe1st,,,:/home/mrlolthe1st:/bin/bash
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ date --date='2021-01-01'
+Пт янв  1 00:00:00 MSK 2021
+
+==================================================================
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ touch ww.txt && ((id && ls -l && ps aux && date) > ww.txt) && (cat ww.txt | grep "ww.txt")
+-rw-r--r-- 1 mrlolthe1st mrlolthe1st   150 сен 10 15:20 ww.txt
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ cat c.txt
+                            2019
+       Января               Февраля                Марта          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+       1  2  3  4  5                  1  2                  1  2  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   3  4  5  6  7  8  9  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  10 11 12 13 14 15 16  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  17 18 19 20 21 22 23  
+27 28 29 30 31        24 25 26 27 28        24 25 26 27 28 29 30  
+                                            31                    
+
+       Апреля                 Мая                   Июня          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30                    
+
+        Июля                Августа               Сентября        
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+    1  2  3  4  5  6               1  2  3   1  2  3  4  5  6  7  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+28 29 30 31           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+      Октября                Ноября               Декабря         
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+       1  2  3  4  5                  1  2   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  22 23 24 25 26 27 28  
+27 28 29 30 31        24 25 26 27 28 29 30  29 30 31              
+                                                         
+
+==================================================================
+mrlolthe1st@mrlolthe1st-VirtualBox:~/work$ ls /etc/*.conf -l | head -10
+-rw-r--r-- 1 root root  3028 фев  3  2020 /etc/adduser.conf
+-rw-r--r-- 1 root root   433 окт  2  2017 /etc/apg.conf
+-rw-r--r-- 1 root root   769 апр  4  2018 /etc/appstream.conf
+-rw-r--r-- 1 root root 25341 авг 29  2018 /etc/brltty.conf
+-rw-r--r-- 1 root root  5986 июн 26 13:49 /etc/ca-certificates.conf
+-rw-r--r-- 1 root root  2969 фев 28  2018 /etc/debconf.conf
+-rw-r--r-- 1 root root   604 авг 13  2017 /etc/deluser.conf
+-rw-r--r-- 1 root root   280 июн 20  2014 /etc/fuse.conf
+-rw-r--r-- 1 root root  2584 фев  1  2018 /etc/gai.conf
+-rw-r--r-- 1 root root  4861 фев 22  2018 /etc/hdparm.conf
+
+
+
+
